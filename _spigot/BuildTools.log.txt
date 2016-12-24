@@ -1,0 +1,1192 @@
+treyzania
+treyzania@gmail.com
+Attempting to build version: '1.8.8' use --rev <version> to override
+Found version
+{
+	"name": "582",
+	"description": "Jenkins build 582 (hotfix 1)",
+	"refs": {
+		"BuildData": "838b40587fa7a68a130b75252959bc8a3481d94f",
+		"Bukkit": "01d1820664a5f881665b84b28871dadd132deaef",
+		"CraftBukkit": "e1ebe524a78e27f6a2829ed4574fded3779094e1",
+		"Spigot": "21fe7077d9140e0f9db01587a39c2ffec29e3ec8"
+	}
+}
+
+Pulling updates for /home/treyzania/dev/git/SkyWarsReloaded/_spigot/BuildData/.git
+Successfully fetched updates!
+Checked out: 838b40587fa7a68a130b75252959bc8a3481d94f
+Pulling updates for /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/.git
+Successfully fetched updates!
+Checked out: 01d1820664a5f881665b84b28871dadd132deaef
+Pulling updates for /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/.git
+Successfully fetched updates!
+Checked out: e1ebe524a78e27f6a2829ed4574fded3779094e1
+Pulling updates for /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/.git
+Successfully fetched updates!
+Checked out: 21fe7077d9140e0f9db01587a39c2ffec29e3ec8
+Attempting to build Minecraft with details: VersionInfo(minecraftVersion=1.8.8, accessTransforms=bukkit-1.8.8.at, classMappings=bukkit-1.8.8-cl.csrg, memberMappings=bukkit-1.8.8-members.csrg, packageMappings=package.srg, minecraftHash=a0671390aa0691e70a950155aab06ffb, decompileCommand=null)
+Found good Minecraft hash (a0671390aa0691e70a950155aab06ffb)
+Found good Minecraft hash (a0671390aa0691e70a950155aab06ffb)
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/work/mapped.ba9a3cce.jar to /home/treyzania/.m2/repository/org/spigotmc/minecraft-server/1.8.8-SNAPSHOT/minecraft-server-1.8.8-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.251 s
+[INFO] Finished at: 2016-12-24T00:08:56-05:00
+[INFO] Final Memory: 7M/150M
+[INFO] ------------------------------------------------------------------------
+Applying CraftBukkit Patches
+Backing up NMS dir
+Patching with WorldBorder.patch
+Patching with EntitySheep.patch
+Patching with BlockTripwireHook.patch
+Patching with EntityGhast.patch
+Patching with ContainerHorse.patch
+Patching with BlockFlowing.patch
+Patching with ContainerDispenser.patch
+Patching with ItemWaterLily.patch
+Patching with EntityChicken.patch
+Patching with EntityLargeFireball.patch
+Patching with PacketPlayInBlockPlace.patch
+Patching with EntityHanging.patch
+Patching with Entity.patch
+Patching with Enchantment.patch
+Patching with EntityTracker.patch
+Patching with PathfinderGoalTargetNearestPlayer.patch
+Patching with EnchantmentThorns.patch
+Patching with EntityMinecartAbstract.patch
+Patching with InventoryHorseChest.patch
+Patching with InventoryEnderChest.patch
+Patching with BlockPumpkin.patch
+Patching with PlayerInventory.patch
+Patching with SecondaryWorldServer.patch
+Patching with TileEntityCommand.patch
+Patching with PathfinderGoalHurtByTarget.patch
+Patching with BlockFire.patch
+Patching with PathfinderGoalOwnerHurtByTarget.patch
+Patching with EntitySlime.patch
+Patching with BlockCocoa.patch
+Patching with EntityCow.patch
+Patching with BlockSkull.patch
+Patching with EntityMushroomCow.patch
+Patching with BlockPoweredRail.patch
+Patching with PortalTravelAgent.patch
+Patching with PathfinderGoalNearestAttackableTarget.patch
+Patching with PlayerInteractManager.patch
+Patching with EntityIronGolem.patch
+Patching with ItemStack.patch
+Patching with Container.patch
+Patching with WorldGenGroundBush.patch
+Patching with ChunkRegionLoader.patch
+Patching with EntitySkeleton.patch
+Patching with EntityPig.patch
+Patching with EntityMonster.patch
+Patching with RecipeArmorDye.patch
+Patching with EntityEgg.patch
+Patching with TileEntityBanner.patch
+Patching with CommandExecute.patch
+Patching with EntityOcelot.patch
+Patching with BlockPlant.patch
+Patching with BlockPressurePlateAbstract.patch
+Patching with ContainerBeacon.patch
+Patching with EntityArrow.patch
+Patching with ShapelessRecipes.patch
+Patching with BlockLeaves.patch
+Patching with EntityTNTPrimed.patch
+Patching with CommandBlockListenerAbstract.patch
+Patching with EntitySquid.patch
+Patching with TileEntity.patch
+Patching with BlockCake.patch
+Patching with WorldGenMegaTreeAbstract.patch
+Patching with BlockOre.patch
+Patching with PacketPlayInCloseWindow.patch
+Patching with ItemBucket.patch
+Patching with ItemMonsterEgg.patch
+Patching with BlockTrapdoor.patch
+Patching with EntityItemFrame.patch
+Patching with BlockNetherWart.patch
+Patching with BlockPiston.patch
+Patching with PlayerChunkMap.patch
+Patching with PathfinderGoalSelector.patch
+Patching with BlockMinecartDetector.patch
+Patching with EntityDamageSourceIndirect.patch
+Patching with WorldGenVillagePieces.patch
+Patching with PacketDataSerializer.patch
+Patching with ItemLeash.patch
+Patching with EntityMinecartContainer.patch
+Patching with EntityAgeable.patch
+Patching with ItemRecord.patch
+Patching with TileEntityNote.patch
+Patching with WorldManager.patch
+Patching with EntityCreature.patch
+Patching with MinecraftServer.patch
+Patching with BlockMonsterEggs.patch
+Patching with RecipeFireworks.patch
+Patching with CommandGamemode.patch
+Patching with TileEntityBeacon.patch
+Patching with BlockRedstoneOre.patch
+Patching with BlockCommand.patch
+Patching with ItemHanging.patch
+Patching with BlockStationary.patch
+Patching with ContainerFurnace.patch
+Patching with ChatBaseComponent.patch
+Patching with PathfinderGoalPanic.patch
+Patching with MethodProfiler.patch
+Patching with EntityFireball.patch
+Patching with ContainerBrewingStand.patch
+Patching with EntitySmallFireball.patch
+Patching with BlockVine.patch
+Patching with EntityProjectile.patch
+Patching with BlockButtonAbstract.patch
+Patching with PathfinderGoalEatTile.patch
+Patching with PathfinderGoalBreakDoor.patch
+Patching with EntityEnderman.patch
+Patching with TileEntityPiston.patch
+Patching with EntityWither.patch
+Patching with BlockStem.patch
+Patching with EntityThrownExpBottle.patch
+Patching with InventoryCrafting.patch
+Patching with PathfinderGoalOwnerHurtTarget.patch
+Patching with EntityLeash.patch
+Patching with WorldMap.patch
+Patching with BlockSnow.patch
+Patching with BlockPressurePlateWeighted.patch
+Patching with ContainerPlayer.patch
+Patching with CrashReport.patch
+Patching with ItemBow.patch
+Patching with PacketStatusListener.patch
+Patching with Chunk.patch
+Patching with DispenseBehaviorProjectile.patch
+Patching with ItemFishingRod.patch
+Patching with BlockMushroom.patch
+Patching with RegionFile.patch
+Patching with BlockDropper.patch
+Patching with ItemArmor.patch
+Patching with EntityRabbit.patch
+Patching with EntityBoat.patch
+Patching with RemoteControlCommandListener.patch
+Patching with EntitySnowman.patch
+Patching with World.patch
+Patching with TileEntityFurnace.patch
+Patching with WorldData.patch
+Patching with ChunkSection.patch
+Patching with EntityItem.patch
+Patching with BlockRedstoneTorch.patch
+Patching with BlockCactus.patch
+Patching with NBTTagList.patch
+Patching with InventoryCraftResult.patch
+Patching with TileEntityBrewingStand.patch
+Patching with InventoryLargeChest.patch
+Patching with MobEffectList.patch
+Patching with BlockMycel.patch
+Patching with ContainerAnvil.patch
+Patching with EntityHorse.patch
+Patching with StatisticManager.patch
+Patching with NetworkManager.patch
+Patching with EntityZombie.patch
+Patching with CommandTp.patch
+Patching with RecipeRepair.patch
+Patching with BlockMinecartTrackAbstract.patch
+Patching with IInventory.patch
+Patching with ContainerEnchantTable.patch
+Patching with ItemMapEmpty.patch
+Patching with RecipeMapClone.patch
+Patching with WorldGenRegistration.patch
+Patching with DedicatedServer.patch
+Patching with Slot.patch
+Patching with ItemDye.patch
+Patching with DispenseBehaviorItem.patch
+Patching with TileEntityDispenser.patch
+Patching with RecipeBookClone.patch
+Patching with BlockBloodStone.patch
+Patching with EntityVillager.patch
+Patching with EntityFishingHook.patch
+Patching with LoginListener.patch
+Patching with BlockEnderPortal.patch
+Patching with ItemFlintAndSteel.patch
+Patching with PathfinderGoalDefendVillage.patch
+Patching with BlockCrops.patch
+Patching with Village.patch
+Patching with ShapedRecipes.patch
+Patching with ItemWorldMap.patch
+Patching with CraftingManager.patch
+Patching with MobSpawnerAbstract.patch
+Patching with EntityAnimal.patch
+Patching with PlayerConnection.patch
+Patching with PathfinderGoalSit.patch
+Patching with EntitySilverfish.patch
+Patching with SlotFurnaceResult.patch
+Patching with BlockDragonEgg.patch
+Patching with IDataManager.patch
+Patching with JsonList.patch
+Patching with EntityWitherSkull.patch
+Patching with WorldNBTStorage.patch
+Patching with BlockDaylightDetector.patch
+Patching with FoodMetaData.patch
+Patching with WorldServer.patch
+Patching with Block.patch
+Patching with BlockLever.patch
+Patching with EntityExperienceOrb.patch
+Patching with BiomeTheEndDecorator.patch
+Patching with SpawnerCreature.patch
+Patching with BlockSoil.patch
+Patching with ContainerMerchant.patch
+Patching with BlockGrass.patch
+Patching with ItemFireball.patch
+Patching with BlockSapling.patch
+Patching with EntityFireworks.patch
+Patching with BlockRedstoneWire.patch
+Patching with TileEntityChest.patch
+Patching with UserCache.patch
+Patching with EntityLiving.patch
+Patching with HandshakeListener.patch
+Patching with EntityTrackerEntry.patch
+Patching with ItemBoat.patch
+Patching with TileEntityHopper.patch
+Patching with PacketPlayInResourcePackStatus.patch
+Patching with ChunkProviderServer.patch
+Patching with Path.patch
+Patching with EntityFallingBlock.patch
+Patching with EntityPlayer.patch
+Patching with ExpirableListEntry.patch
+Patching with Explosion.patch
+Patching with EntityEnderPearl.patch
+Patching with RecipesFurnace.patch
+Patching with BlockPortal.patch
+Patching with CommandSpreadPlayers.patch
+Patching with EntityHuman.patch
+Patching with PathfinderGoalTame.patch
+Patching with ContainerHopper.patch
+Patching with EntitySpider.patch
+Patching with PathfinderGoalMakeLove.patch
+Patching with RecipesBanner.patch
+Patching with EntityMinecartCommandBlock.patch
+Patching with BlockIce.patch
+Patching with EntityInsentient.patch
+Patching with BlockMobSpawner.patch
+Patching with PropertyManager.patch
+Patching with BlockTripwire.patch
+Patching with PathfinderGoalBreed.patch
+Patching with IRecipe.patch
+Patching with BlockDispenser.patch
+Patching with DispenserRegistry.patch
+Patching with BlockPressurePlateBinary.patch
+Patching with TileEntitySkull.patch
+Patching with ItemMinecart.patch
+Patching with EntityPainting.patch
+Patching with TileEntitySign.patch
+Patching with ChatModifier.patch
+Patching with BlockJukeBox.patch
+Patching with CommandGamerule.patch
+Patching with InventorySubcontainer.patch
+Patching with EntityLightning.patch
+Patching with PathfinderGoalNearestAttackableTargetInsentient.patch
+Patching with BlockReed.patch
+Patching with EntityPotion.patch
+Patching with NameReferencingFileConverter.patch
+Patching with EntityWolf.patch
+Patching with ScoreboardServer.patch
+Patching with ContainerChest.patch
+Patching with BlockDiodeAbstract.patch
+Patching with PlayerList.patch
+Patching with BlockRedstoneLamp.patch
+Patching with EntityEnderDragon.patch
+Patching with EntitySlice.patch
+Patching with InventoryMerchant.patch
+Patching with EntityEnderCrystal.patch
+Patching with BlockDoor.patch
+Patching with ContainerWorkbench.patch
+Patching with EntityCreeper.patch
+Patching with EntityArmorStand.patch
+Patching with VillageSiege.patch
+Compiling Bukkit
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Bukkit 1.8.8-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bukkit ---
+[INFO] Deleting /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ bukkit ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ bukkit ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bukkit ---
+[INFO] Surefire report directory: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.ChatPaginatorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.087 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.plugin.PluginManagerTest
+Dec 24, 2016 12:09:01 AM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.potion.PotionTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 480, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.materials.MaterialDataTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.bukkit.event.SyntheticEventTest
+Invk org.bukkit.event.TestEvent@2a266d09
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+
+Results :
+
+Tests run: 913, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ bukkit ---
+[INFO] Building jar: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/target/bukkit-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ bukkit ---
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:17.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.2.4 in the shaded jar.
+[INFO] Including org.avaje:ebean:jar:2.8.1 in the shaded jar.
+[INFO] Including javax.persistence:persistence-api:jar:1.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.15 in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ bukkit ---
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/target/bukkit-1.8.8-R0.1-SNAPSHOT.jar to /home/treyzania/.m2/repository/org/bukkit/bukkit/1.8.8-R0.1-SNAPSHOT/bukkit-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/pom.xml to /home/treyzania/.m2/repository/org/bukkit/bukkit/1.8.8-R0.1-SNAPSHOT/bukkit-1.8.8-R0.1-SNAPSHOT.pom
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Bukkit/target/bukkit-1.8.8-R0.1-SNAPSHOT-shaded.jar to /home/treyzania/.m2/repository/org/bukkit/bukkit/1.8.8-R0.1-SNAPSHOT/bukkit-1.8.8-R0.1-SNAPSHOT-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.574 s
+[INFO] Finished at: 2016-12-24T00:09:02-05:00
+[INFO] Final Memory: 36M/366M
+[INFO] ------------------------------------------------------------------------
+Compiling CraftBukkit
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CraftBukkit 1.8.8-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ craftbukkit ---
+[INFO] Deleting /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target
+[INFO] 
+[INFO] --- scriptus:0.2:describe (default) @ craftbukkit ---
+[INFO] Set property "describe" to "git-Bukkit-e1ebe52"
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ craftbukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ craftbukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ craftbukkit ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ craftbukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ craftbukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ craftbukkit ---
+[INFO] Surefire report directory: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.PerMaterialTest
+Dec 24, 2016 12:09:13 AM org.bukkit.Bukkit setServer
+INFO: This server is running org.bukkit.support.DummyServer version null (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+Tests run: 3850, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.616 sec - in org.bukkit.PerMaterialTest
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.WorldTypeTest
+Running org.bukkit.DyeColorsTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.DyeColorsTest
+Running org.bukkit.craftbukkit.inventory.ItemMetaTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec - in org.bukkit.craftbukkit.inventory.ItemMetaTest
+Running org.bukkit.craftbukkit.inventory.ItemFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.449 sec - in org.bukkit.craftbukkit.inventory.ItemFactoryTest
+Running org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+Tests run: 1352, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 sec - in org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+Running org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+Tests run: 99, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+Running org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+Running org.bukkit.map.MapTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.map.MapTest
+Running org.bukkit.MaterialTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.MaterialTest
+Running org.bukkit.SoundTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.bukkit.SoundTest
+Running org.bukkit.potion.PotionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.bukkit.potion.PotionTest
+Running org.bukkit.ArtTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.bukkit.ArtTest
+Running org.bukkit.StatisticsAndAchievementsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in org.bukkit.StatisticsAndAchievementsTest
+
+Results :
+
+
+
+
+Tests run: 5358, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ craftbukkit ---
+[INFO] Building jar: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/craftbukkit-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ craftbukkit ---
+[INFO] Including org.bukkit:bukkit:jar:1.8.8-R0.1-SNAPSHOT in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:17.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.2.4 in the shaded jar.
+[INFO] Including org.avaje:ebean:jar:2.8.1 in the shaded jar.
+[INFO] Including javax.persistence:persistence-api:jar:1.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.15 in the shaded jar.
+[INFO] Including org.spigotmc:minecraft-server:jar:1.8.8-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:3.2 in the shaded jar.
+[INFO] Including jline:jline:jar:2.12 in the shaded jar.
+[INFO] Including org.xerial:sqlite-jdbc:jar:3.7.2 in the shaded jar.
+[INFO] Including mysql:mysql-connector-java:jar:5.1.14 in the shaded jar.
+[WARNING] guava-17.0.jar, minecraft-server-1.8.8-SNAPSHOT.jar define 1686 overlappping classes: 
+[WARNING]   - com.google.common.collect.ImmutableMapValues$1
+[WARNING]   - com.google.common.io.LineProcessor
+[WARNING]   - com.google.common.util.concurrent.AbstractService$5
+[WARNING]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[WARNING]   - com.google.common.io.ByteProcessor
+[WARNING]   - com.google.common.math.package-info
+[WARNING]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[WARNING]   - com.google.common.io.GwtWorkarounds$5
+[WARNING]   - com.google.common.cache.AbstractCache$StatsCounter
+[WARNING]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[WARNING]   - 1676 more...
+[WARNING] craftbukkit-1.8.8-R0.1-SNAPSHOT.jar, minecraft-server-1.8.8-SNAPSHOT.jar define 489 overlappping classes: 
+[WARNING]   - org.apache.logging.log4j.core.appender.ConsoleAppender$ConsoleManagerFactory
+[WARNING]   - net.minecraft.server.DispenserRegistry$2
+[WARNING]   - net.minecraft.server.DispenserRegistry$12
+[WARNING]   - net.minecraft.server.PathfinderGoalNearestAttackableTargetInsentient
+[WARNING]   - net.minecraft.server.PathfinderGoalHurtByTarget
+[WARNING]   - net.minecraft.server.Entity$4
+[WARNING]   - net.minecraft.server.BlockGrass
+[WARNING]   - net.minecraft.server.Chunk$1
+[WARNING]   - net.minecraft.server.EntityHuman
+[WARNING]   - net.minecraft.server.BlockPressurePlateBinary$EnumMobType
+[WARNING]   - 479 more...
+[WARNING] minecraft-server-1.8.8-SNAPSHOT.jar, gson-2.2.4.jar define 153 overlappping classes: 
+[WARNING]   - com.google.gson.internal.bind.JsonTreeWriter
+[WARNING]   - com.google.gson.internal.Excluder
+[WARNING]   - com.google.gson.JsonDeserializationContext
+[WARNING]   - com.google.gson.internal.$Gson$Types
+[WARNING]   - com.google.gson.internal.LinkedTreeMap$KeySet
+[WARNING]   - com.google.gson.FieldNamingPolicy$5
+[WARNING]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
+[WARNING]   - com.google.gson.internal.UnsafeAllocator$2
+[WARNING]   - com.google.gson.FieldAttributes
+[WARNING]   - com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl
+[WARNING]   - 143 more...
+[WARNING] maven-shade-plugin has detected that some .class files
+[WARNING] are present in two or more JARs. When this happens, only
+[WARNING] one single version of the class is copied in the uberjar.
+[WARNING] Usually this is not harmful and you can skeep these
+[WARNING] warnings, otherwise try to manually exclude artifacts
+[WARNING] based on mvn dependency:tree -Ddetail=true and the above
+[WARNING] output
+[WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/craftbukkit-1.8.8-R0.1-SNAPSHOT.jar with /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/craftbukkit-1.8.8-R0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- specialsource-maven-plugin:1.2.1:remap (default) @ craftbukkit ---
+[INFO] Replacing original artifact with remapped artifact.
+[INFO] Replacing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/craftbukkit-1.8.8-R0.1-SNAPSHOT.jar with /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/craftbukkit-1.8.8-R0.1-SNAPSHOT-remapped.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ craftbukkit ---
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/target/craftbukkit-1.8.8-R0.1-SNAPSHOT.jar to /home/treyzania/.m2/repository/org/bukkit/craftbukkit/1.8.8-R0.1-SNAPSHOT/craftbukkit-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit/dependency-reduced-pom.xml to /home/treyzania/.m2/repository/org/bukkit/craftbukkit/1.8.8-R0.1-SNAPSHOT/craftbukkit-1.8.8-R0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 28.880 s
+[INFO] Finished at: 2016-12-24T00:09:32-05:00
+[INFO] Final Memory: 19M/796M
+[INFO] ------------------------------------------------------------------------
+Rebuilding Forked projects.... 
+HEAD is now at 01d1820 Add non-mutative getCrossProduct method to Vector.
+Resetting Spigot-API to Bukkit...
+HEAD is now at 01d1820 Add non-mutative getCrossProduct method to Vector.
+  Applying patches to Spigot-API...
+fatal: Resolve operation not in progress, we are not resuming.
+Applying: POM Changes
+Applying: Spigot Timings
+Applying: Add PlayerItemDamageEvent
+Applying: BungeeCord Support
+Applying: Add Arrow API
+Applying: Add Particle API
+Applying: Define EntitySpawnEvent and SpawnerSpawnEvent
+Applying: Entity Mount and Dismount Events
+Applying: InventoryClickEvent getClickedInventory
+Applying: Added getAllSessionData() to the Conversation API.
+Applying: Catch Conversation API Errors
+Applying: Player Collision API
+Applying: Expand Boolean Prompt Values
+Applying: Add Getter for Entity Invulnerability
+Applying: Add respawn API.
+Applying: Fix Plugin Message API Disconnects
+Applying: Fix Tab Completion for Some Commands
+Applying: Implement Locale Getter for Players
+Applying: Add support for fetching hidden players
+Applying: Silenceable Lightning API
+Applying: Remove deprecation on some player lookup methods
+Applying: Add Score.isScoreSet()Z API.
+Applying: Add PlayerSpawnLocationEvent.
+Applying: Ease ClassLoader Deadlocks Where Possible
+Applying: Fix slow tab complete for some commands.
+Applying: Undeprecate Player#updateInventory()V
+Applying: Added isUnbreakable and setUnbreakable to ItemMeta
+Applying: BungeeCord Chat API
+Applying: Add restart API.
+  Patches applied cleanly to Spigot-API
+From file:///home/treyzania/dev/git/SkyWarsReloaded/_spigot/CraftBukkit
+ + ba5653e...ca27874 patched    -> origin/patched  (forced update)
+HEAD is now at ca27874 CraftBukkit $ Sat Dec 24 00:08:56 EST 2016
+Resetting Spigot-Server to CraftBukkit...
+HEAD is now at ca27874 CraftBukkit $ Sat Dec 24 00:08:56 EST 2016
+  Applying patches to Spigot-Server...
+fatal: Resolve operation not in progress, we are not resuming.
+Applying: POM Changes
+Applying: mc-dev imports
+Applying: Skeleton API Implementations
+Applying: Obfuscation Helpers
+Applying: Spigot Configuration
+Applying: Better Chunk Tick Selection
+Applying: Crop Growth Rates
+Applying: Merge tweaks and configuration
+Applying: Async Operation Catching
+Applying: View Distance
+Applying: Spigot Timings
+Applying: Fix Mob Spawning Relative to View Distance
+Applying: Handle Null Tile Entities
+Applying: Entity Activation Range
+Applying: Metrics
+Applying: PlayerItemDamageEvent
+Applying: Prevent NPE in CraftSign
+Applying: Entity Tracking Ranges
+Applying: Thread Naming and Tweaks
+Applying: Close Unloaded Save Files
+Applying: Remove -o Option
+Applying: Recipe Deconstruction
+Applying: Implement Arrow API
+Applying: Hopper Customisations
+Applying: Implement SpawnerSpawnEvent.
+Applying: Firework Meta Crash Fix
+Applying: Allow Disabling of Command Logging
+Applying: Allow Disabling of Command TabComplete
+Applying: Configurable Messages
+Applying: Allow Disabling of Random Lighting Updates
+Applying: Properly Close Inventories
+Applying: Disallow Interaction With Self
+Applying: Entity Mount and Dismount Events
+Applying: Prevent Ghost Players Caused by Plugins
+Applying: Plug World Unload Memory Leak
+Applying: Player Collision API
+Applying: Fully Disable Snooper When Not Required
+Applying: Add Getter for Entity Invulnerability
+Applying: Cap Minimum Player Speed
+Applying: Update Inventory and Health for PlayerConsumeItemEvent
+Applying: Call EntityChangeBlockEvent for Fire Arrows hitting TNT
+Applying: Allow Disabling of 1.6.3 Structure Saving
+Applying: Item Despawn Rate
+Applying: Don't Special Case X Move Value
+Applying: Implement respawn API.
+Applying: Arrow Despawn Rate
+Applying: Fix packed ice generation
+Applying: Watchdog Thread.
+Applying: Clear Flower Pot on Drop
+Applying: Fix some chunks not being sent to the client
+Applying: Fix Broken Async Chat
+Applying: Orebfuscator
+Applying: Optimize DataWatcher
+Applying: Fire PreLogin Events in Offline Mode
+Applying: BungeeCord Support
+Applying: Allow Disabling Zombie Villager Aggression
+Applying: Configurable Amount of Netty Threads
+Applying: Prevent Mineshaft Saving
+Applying: Log Cause of Unexpected Exceptions
+Applying: Particle API
+Applying: Save ticks lived to nbttag
+Applying: More Efficient GetCubes
+Applying: Add Option to Nerf Mobs from Spawner's
+Applying: Warn if PermGen may be insufficient
+Applying: Disable Connected Check on setScoreboard
+Applying: Add Late Bind Option
+Applying: Allow statistics to be disabled/forced
+Applying: Fix ItemStack Unbreakable Code
+Applying: Try and Debug Crash Reports Crashing
+Applying: Improve AutoSave Mechanism
+Applying: Catch stalling on corrupted map data / NBT arrays.
+Applying: Allow toggling of ZombiePigmen spawning in portal blocks
+Applying: Highly Optimized Tick Loop
+Applying: Configurable Ping Sample Size
+Applying: Add Optional Tick Shuffling
+Applying: Allow Configuring Chunks per Packet
+Applying: Implement Locale Getter for Players
+Applying: Cap Entity Collisions
+Applying: Fix dispensing bone meal not having the correct data value
+Applying: Spam Filter Exclusions
+Applying: Add Option to Silence CommandBlock Console
+Applying: Add support for fetching hidden players
+Applying: Allow Disabling Creative Item Filter
+Applying: Cap Channel Registrations
+Applying: Allow vanilla commands to be the main version of a command
+Applying: Unfinalize the isDisconnected() method by bukkit.
+Applying: Implement Silenceable Lightning API
+Applying: Use one PermissibleBase for all Command Blocks
+Applying: Prevent hoppers from loading chunks
+Applying: Guard Entity List
+Applying: Fix ConcurrentModificationException while being idle kicked in a vehicle
+Applying: Cancellable WitherSkull potion effect
+Applying: Descriptive kick reasons instead of Nope!
+Applying: Configurable dragon death and wither spawn sounds
+Applying: Display 'Spigot' in client crashes, server lists and Mojang stats
+Applying: Treat Bungee as Online Mode
+Applying: Add Conversion Message
+Applying: Properly cancel fishing event. Fixes BUKKIT-5396
+Applying: Print Stack on InternalException
+Applying: Use Offline Player Data Once if Required.
+Applying: Use Provided Case for Non Existent Offline Players
+Applying: Check for blank OfflinePlayer Names
+Applying: Fix Player Banning
+Applying: Fix ban expire dates.
+Applying: Correct Ban Expiration
+Applying: Convert Horses owner to UUID
+Applying: Add Score.isScoreSet()Z API.
+Applying: Log null TileEntity Owner
+Applying: Don't special case 'invalid' usernames for UUIDs.
+Applying: Convert player skulls async
+Applying: Prevent NoClassDefError crash and notify on crash
+Applying: Check Skull canPlace
+Applying: Fix race condition that could kill connections before they were initiated
+Applying: Configurable UserCache cap
+Applying: Implement PlayerSpawnLocationEvent.
+Applying: Cap Objective Score Length
+Applying: Process conversation input on the main thread. Fixes BUKKIT-5611
+Applying: Configurable save-on-stop-only for UserCache
+Applying: Prevent Unbounded IntCache Growth
+Applying: Add damager to the unhandled error
+Applying: Cross World Entity Teleportation
+Applying: Limit block placement/interaction packets
+Applying: Better item validation
+Applying: Further Seed Customisation
+Applying: Disable ResourceLeakDetector
+Applying: Add More Information to session.lock Errors
+Applying: Safer JSON Loading
+Applying: Fix Slow "Loading Libraries"
+Applying: Add CommandLine EULA Flag
+Applying: Fix for enchanting table wiping meta when placing stacked items
+Applying: Don't spawn bonus ocelots when plugins spawn ocelots
+Applying: Prevent a crash involving attributes
+Applying: Make "moved wrongly" limit configurable
+Applying: Fix Null Tile Entity Worlds
+Applying: Make "moved too quickly" limit configurable
+Applying: Apply NBTReadLimiter to more things.
+Applying: Allow Attribute Capping.
+Applying: Only fetch an online UUID in online mode
+Applying: Filter attribute modifiers which cause the attribute to go out of its range
+Applying: Plug WorldMap Memory Leak
+Applying: Fix Corrupted Trapped Chest
+Applying: Remove uneeded validation
+Applying: Add Hunger Config Values
+Applying: Make debug logging togglable.
+Applying: Skip invalid enchants in CraftMetaItem
+Applying: Limit TNT Detonations per tick
+Applying: Added isUnbreakable and setUnbreakable to ItemMeta
+Applying: Configurable Hanging Tick
+Applying: Refactor ItemDoor Place
+Applying: BungeeCord Chat API
+Applying: Use Standard List for EntitySlices.
+Applying: Allow Capping (Tile)Entity Tick Time.
+Applying: Use FastMatches for ItemStack Dirty Check
+Applying: Use CLQ for main thread tasks.
+Applying: map decoration fix
+Applying: Use Map for getPlayer(String) lookup.
+Applying: Clear Packet Queue on Disconnect
+Applying: Optimize Chunk Saving Memory Allocation and Compression
+Applying: More effecient RegionFile zero'ing
+Applying: Don't sleep between chunk saves
+  Patches applied cleanly to Spigot-Server
+*** Spigot patches applied!
+Compiling Spigot & Spigot-API
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.spigotmc:spigot-api:jar:1.8.8-R0.1-SNAPSHOT
+[WARNING] 'parent.relativePath' points at org.spigotmc:spigot-parent instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 6, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spigot-API
+[INFO] Spigot-Parent
+[INFO] Spigot
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spigot-API 1.8.8-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot-api ---
+[INFO] Deleting /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ spigot-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spigot-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spigot-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ spigot-api ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spigot-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spigot-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spigot-api ---
+[INFO] Surefire report directory: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.ChatPaginatorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.084 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.plugin.PluginManagerTest
+Dec 24, 2016 12:09:40 AM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.potion.PotionTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 485, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.materials.MaterialDataTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.event.SyntheticEventTest
+Invk org.bukkit.event.TestEvent@1d8bd0de
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests run: 918, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ spigot-api ---
+[INFO] Building jar: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/target/spigot-api-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ spigot-api ---
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:17.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.2.4 in the shaded jar.
+[INFO] Including org.avaje:ebean:jar:2.8.1 in the shaded jar.
+[INFO] Including javax.persistence:persistence-api:jar:1.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.15 in the shaded jar.
+[INFO] Including net.md-5:bungeecord-chat:jar:1.8-SNAPSHOT in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot-api ---
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/target/spigot-api-1.8.8-R0.1-SNAPSHOT.jar to /home/treyzania/.m2/repository/org/spigotmc/spigot-api/1.8.8-R0.1-SNAPSHOT/spigot-api-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/pom.xml to /home/treyzania/.m2/repository/org/spigotmc/spigot-api/1.8.8-R0.1-SNAPSHOT/spigot-api-1.8.8-R0.1-SNAPSHOT.pom
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-API/target/spigot-api-1.8.8-R0.1-SNAPSHOT-shaded.jar to /home/treyzania/.m2/repository/org/spigotmc/spigot-api/1.8.8-R0.1-SNAPSHOT/spigot-api-1.8.8-R0.1-SNAPSHOT-shaded.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spigot-Parent dev-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ spigot-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot-parent ---
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/pom.xml to /home/treyzania/.m2/repository/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spigot 1.8.8-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot ---
+[INFO] Deleting /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ spigot ---
+[INFO] 
+[INFO] --- scriptus:0.2:describe (ex-spigot) @ spigot ---
+[INFO] Set property "spigot.desc" to "git-Spigot-21fe707"
+[INFO] 
+[INFO] --- scriptus:0.2:describe (ex-craftbukkit) @ spigot ---
+[INFO] Set property "craftbukkit.desc" to "-e1ebe52"
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spigot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spigot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ spigot ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spigot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spigot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ spigot ---
+[INFO] Surefire report directory: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.PerMaterialTest
+Dec 24, 2016 12:09:48 AM org.bukkit.Bukkit setServer
+INFO: This server is running org.bukkit.support.DummyServer version null (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+Tests run: 3850, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.578 sec - in org.bukkit.PerMaterialTest
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.WorldTypeTest
+Running org.bukkit.DyeColorsTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.DyeColorsTest
+Running org.bukkit.craftbukkit.inventory.ItemMetaTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in org.bukkit.craftbukkit.inventory.ItemMetaTest
+Running org.bukkit.craftbukkit.inventory.ItemFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.832 sec - in org.bukkit.craftbukkit.inventory.ItemFactoryTest
+Running org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+Tests run: 1352, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 sec - in org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+Running org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+Tests run: 99, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+Running org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+Running org.bukkit.map.MapTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.map.MapTest
+Running org.bukkit.MaterialTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.MaterialTest
+Running org.bukkit.SoundTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.bukkit.SoundTest
+Running org.bukkit.potion.PotionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.bukkit.potion.PotionTest
+Running org.bukkit.ArtTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.bukkit.ArtTest
+Running org.bukkit.StatisticsAndAchievementsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in org.bukkit.StatisticsAndAchievementsTest
+
+Results :
+
+
+
+
+Tests run: 5358, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ spigot ---
+[INFO] Building jar: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/spigot-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ spigot ---
+[INFO] Including net.sf.trove4j:trove4j:jar:3.0.3 in the shaded jar.
+[INFO] Including org.spigotmc:spigot-api:jar:1.8.8-R0.1-SNAPSHOT in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:17.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.2.4 in the shaded jar.
+[INFO] Including org.avaje:ebean:jar:2.8.1 in the shaded jar.
+[INFO] Including javax.persistence:persistence-api:jar:1.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.15 in the shaded jar.
+[INFO] Including net.md-5:bungeecord-chat:jar:1.8-SNAPSHOT in the shaded jar.
+[INFO] Including org.spigotmc:minecraft-server:jar:1.8.8-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:3.2 in the shaded jar.
+[INFO] Including jline:jline:jar:2.12 in the shaded jar.
+[INFO] Including org.xerial:sqlite-jdbc:jar:3.7.2 in the shaded jar.
+[INFO] Including mysql:mysql-connector-java:jar:5.1.14 in the shaded jar.
+[WARNING] guava-17.0.jar, minecraft-server-1.8.8-SNAPSHOT.jar define 1686 overlappping classes: 
+[WARNING]   - com.google.common.collect.ImmutableMapValues$1
+[WARNING]   - com.google.common.io.LineProcessor
+[WARNING]   - com.google.common.util.concurrent.AbstractService$5
+[WARNING]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[WARNING]   - com.google.common.io.ByteProcessor
+[WARNING]   - com.google.common.math.package-info
+[WARNING]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[WARNING]   - com.google.common.io.GwtWorkarounds$5
+[WARNING]   - com.google.common.cache.AbstractCache$StatsCounter
+[WARNING]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[WARNING]   - 1676 more...
+[WARNING] minecraft-server-1.8.8-SNAPSHOT.jar, spigot-1.8.8-R0.1-SNAPSHOT.jar define 550 overlappping classes: 
+[WARNING]   - org.apache.logging.log4j.core.appender.ConsoleAppender$ConsoleManagerFactory
+[WARNING]   - net.minecraft.server.DispenserRegistry$2
+[WARNING]   - net.minecraft.server.DispenserRegistry$12
+[WARNING]   - net.minecraft.server.PathfinderGoalNearestAttackableTargetInsentient
+[WARNING]   - net.minecraft.server.PathfinderGoalHurtByTarget
+[WARNING]   - net.minecraft.server.Entity$4
+[WARNING]   - net.minecraft.server.BlockGrass
+[WARNING]   - net.minecraft.server.Chunk$1
+[WARNING]   - net.minecraft.server.EntityHuman
+[WARNING]   - net.minecraft.server.BlockPressurePlateBinary$EnumMobType
+[WARNING]   - 540 more...
+[WARNING] minecraft-server-1.8.8-SNAPSHOT.jar, gson-2.2.4.jar define 153 overlappping classes: 
+[WARNING]   - com.google.gson.internal.bind.JsonTreeWriter
+[WARNING]   - com.google.gson.internal.Excluder
+[WARNING]   - com.google.gson.JsonDeserializationContext
+[WARNING]   - com.google.gson.internal.$Gson$Types
+[WARNING]   - com.google.gson.internal.LinkedTreeMap$KeySet
+[WARNING]   - com.google.gson.FieldNamingPolicy$5
+[WARNING]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
+[WARNING]   - com.google.gson.internal.UnsafeAllocator$2
+[WARNING]   - com.google.gson.FieldAttributes
+[WARNING]   - com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl
+[WARNING]   - 143 more...
+[WARNING] maven-shade-plugin has detected that some .class files
+[WARNING] are present in two or more JARs. When this happens, only
+[WARNING] one single version of the class is copied in the uberjar.
+[WARNING] Usually this is not harmful and you can skeep these
+[WARNING] warnings, otherwise try to manually exclude artifacts
+[WARNING] based on mvn dependency:tree -Ddetail=true and the above
+[WARNING] output
+[WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/spigot-1.8.8-R0.1-SNAPSHOT.jar with /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/spigot-1.8.8-R0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- specialsource-maven-plugin:1.2.1:remap (default) @ spigot ---
+[INFO] Replacing original artifact with remapped artifact.
+[INFO] Replacing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/spigot-1.8.8-R0.1-SNAPSHOT.jar with /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/spigot-1.8.8-R0.1-SNAPSHOT-remapped.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot ---
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/target/spigot-1.8.8-R0.1-SNAPSHOT.jar to /home/treyzania/.m2/repository/org/spigotmc/spigot/1.8.8-R0.1-SNAPSHOT/spigot-1.8.8-R0.1-SNAPSHOT.jar
+[INFO] Installing /home/treyzania/dev/git/SkyWarsReloaded/_spigot/Spigot/Spigot-Server/dependency-reduced-pom.xml to /home/treyzania/.m2/repository/org/spigotmc/spigot/1.8.8-R0.1-SNAPSHOT/spigot-1.8.8-R0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spigot-API ......................................... SUCCESS [  5.520 s]
+[INFO] Spigot-Parent ...................................... SUCCESS [  0.067 s]
+[INFO] Spigot ............................................. SUCCESS [ 28.446 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 34.139 s
+[INFO] Finished at: 2016-12-24T00:10:10-05:00
+[INFO] Final Memory: 21M/791M
+[INFO] ------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Success! Everything compiled successfully. Copying final .jar files now.
+Copying craftbukkit-1.8.8-R0.1-SNAPSHOT.jar to /home/treyzania/dev/git/SkyWarsReloaded/_spigot/.
+  - Saved as craftbukkit-1.8.8.jar
+Copying spigot-1.8.8-R0.1-SNAPSHOT.jar to /home/treyzania/dev/git/SkyWarsReloaded/_spigot/.
+  - Saved as spigot-1.8.8.jar

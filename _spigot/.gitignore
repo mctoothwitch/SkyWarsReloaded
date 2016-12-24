@@ -1,0 +1,15 @@
+# Ignore any subdirectory.
+*.jar
+*.log
+./*
+
+Bukkit/
+CraftBukkit/
+Spigot-API/
+Spigot/
+
+BuildData/
+work/
+
+apache-maven-*/
+
