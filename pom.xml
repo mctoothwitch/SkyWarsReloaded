@@ -17,12 +17,12 @@
 	
 	<modules>
 		<module>swr-api</module>
+		<module>swr-plugin</module>
 		<module>v1_8_R1</module>
 		<module>v1_8_R2</module>
 		<module>v1_8_R3</module>
-		<module>swr-plugin</module>
-        <module>v1_11_R1</module>
-    </modules>
+		<module>v1_11_R1</module>
+	</modules>
 	
 </project>
 
