@@ -11,19 +11,19 @@
 #  noFallDamageLobby: false		//if set to true, players will not recieve fall damage in the lobby world. 
 #  minPercentPlayers: 50	//The percentage of a full lobby, before players in queue are teleported and before a game will start.
 #  preGameTimer: 20			//The countdown time before the game starts once the minimum number of players are in the game.
-#  resetPreGameTimerOnJoin: true	//If set to true, the pregame timer will reset whenver a new player joins a game.
-#  resetPreGameTimerThreshold: 80	//This is the threshold based on the percentage of players in a game. If the number of players in the game is higher than the threshold, the timer will not restart. 
+#  resetPreGameTimerOnJoin: true	//If set to true, the pregame timer will reset whenpluer a new player joins a game.
+#  resetPreGameTimerThreshold: 80	//This is the threshold based on the percentage of players in a game. If the number of players in the game is higher than the threshold, the timer will not restart.
 #  timeAfterGame: 10	//This is the amount of time after the end of a game, before the game shutsdown/restarts.
-#  maxMapSize: 200		//This is the maximum square size of the map. 
-#  maxNumberOfGames: -1 	//This is the maximum number of games possible on the server. If set to -1, it is unlimited. 
-#  maxGameLength: -1		//Sets the maximum length of a game in minutes. 
+#  maxMapSize: 200		//This is the maximum square size of the map.
+#  maxNumberOfGames: -1 	//This is the maximum number of games possible on the server. If set to -1, it is unlimited.
+#  maxGameLength: -1		//Sets the maximum length of a game in minutes.
 #  playerNameScoreboard: false 	//When enabled, the in game scoreboard will show player names instead of Warriors Remaining.
 #  lobbyScoreBoardEnabled: false //When enable, a scoreboard showing player stats will be shown to players in the Lobby World.
 #  statsCommandCooldown: 60		//The amount of time a player has to wait to use the stats command again.
 #  clearInventoryOnJoin: false	//When set to true, a players inventory is cleared whenever they join the server.
 #  clearXPOnJoin: false		//When set to true, a players xp is cleared whenever they join the server.
 #  clearPotionEffectsOnJoin: false  //When set to true, a players potions effects are cleared whenever they join the server.
-#  addScorePrefix: true		//When set to true, a score prefix is added to player chat. 
+#  addScorePrefix: true		//When set to true, a score prefix is added to player chat.
 #  useExternalChat: false	//When set to true, the plugin will use the external chat plugin.
 #points:
 #  pointsPerKill: 2		//number of points awarded per kill.
@@ -46,7 +46,7 @@
 #  colorGlassEnabled: true		//enables players to change their glass colors (with permissions)
 #  particlesEnabled: true		//enables players to change their particle effects (with permissions)
 #  trailEffectsEnabled: true	//enables players to change their trail effects (with permissions)
-#  lobbyMenuEnabled: true		//enables the lobby menu 
+#  lobbyMenuEnabled: true		//enables the lobby menu
 #  optionsMenuEnabled: true		//enables the in game options menu
 #  purchaseColorGlassEnabled: true	//enables the Color Glass shop
 #  purchaseParticlesEnabled: true	//enables the Particle Effects shop
@@ -59,12 +59,12 @@
 #  hungerDisabled: true  //Players will not lose hunger in lobby.
 #  damageDisabled: true  //Player will not take damage in the lobby (Void damage will still be allowed).
 #  pvpDisabled: true     //PVP will be disabled in the lobby.
-#  playerBuildDisabled: true  //Players will not be able to build or break blocks in the lobby. 
+#  playerBuildDisabled: true  //Players will not be able to build or break blocks in the lobby.
 #  playerInteractDisabled: true  //Players will not be able to interact with blocks/items/picture frames/etc in the lobby.
 #  weatherDisabled: true //When enabled the weather will always be clear in the lobby world.
-#  daylightCycleDisabled: true  //When enabled the time will always be Noon in the lobby world. 
+#  daylightCycleDisabled: true  //When enabled the time will always be Noon in the lobby world.
 #spawn:						//use setspawn command to set a spawn point where people are teleported when leaving a game. This must be set before any game can be created.
-#commandWhiteList: 			//commands placed under the whitelist can be used by players ingame. 
+#commandWhiteList: 			//commands placed under the whitelist can be used by players ingame.
 # - '/swr quit'
 # - '/swr kit'
 # - '/swr shop'
@@ -79,16 +79,16 @@
 #  password: password		//password for login to the SQL database
 #resaveDefaultMaps: false	//When set to true the plugin will reload the maps that came with the plugin.
 #bungeeMode:
-#  enabled: false			//When enabled, the plugin will work with the SkyWarsReloaded bungeeMode plugin. 
+#  enabled: false			//When enabled, the plugin will work with the SkyWarsReloaded bungeeMode plugin.
 #  bungeeServerName: test	//The bungee cord name of the SkyWars server.
-#  lobbyServer: lobby		//The name of the server (as found in bungeecord) where players will be sent when the game ends. 
+#  lobbyServer: lobby		//The name of the server (as found in bungeecord) where players will be sent when the game ends.
 gameSettings:
   signJoinMode: false
   signJoinMaterial: wool
   pressurePlateJoin: true
   allowSpectating: true
   enableLogFilter: true
-  useExternalEconomy: false  
+  useExternalEconomy: false
   disableWinBroadcast: false
   noFallDamage: true
   minPercentPlayers: 50
@@ -99,7 +99,7 @@ gameSettings:
   maxMapSize: 200
   maxNumberOfGames: -1
   maxGameLength: -1
-  playerNameScoreboard: false 
+  playerNameScoreboard: false
   lobbyScoreBoardEnabled: false
   statsCommandCooldown: 60
   clearInventoryOnJoin: false
@@ -152,7 +152,7 @@ gameItems:
   kitMenuItem: storage_minecart 1 luck:1
   kitMenuItemSlot: 0
   kitPermMenuItem: storage_minecart 1
-  kitPermMenuItemSlot: 2 
+  kitPermMenuItemSlot: 2
   specStoreItem: anvil 1 luck:1
   specStoreItemSlot: 4
   opChestMenuItem: diamond 1
@@ -175,14 +175,14 @@ gameItems:
   glassLobbyMenuSlot: 6
   glassOptionsMenuSlot: 20
 gameSounds:
-  playerJoinLobby: SLIME_WALK2
-  playerLeaveLobby: SLIME_ATTACK
-  playerDeath: AMBIENCE_THUNDER
-  playerWin: FIREWORK_LARGE_BLAST
-  opChestVote: CHEST_OPEN
-  timeVote: FUSE
-  weatherVote: SPLASH
-  jumpVote: MAGMACUBE_JUMP
+  playerJoinLobby: ENTITY_SLIME_SQUISH
+  playerLeaveLobby: ENTITY_SLIME_ATTACK
+  playerDeath: ENTITY_LIGHTNING_THUNDER
+  playerWin: ENTITY_FIREWORK_LARGE_BLAST
+  opChestVote: BLOCK_CHEST_OPEN
+  timeVote: ENTITY_TNT_PRIMED
+  weatherVote: ENTITY_PLAYER_SPLASH
+  jumpVote: ENTITY_MAGMACUBE_JUMP
 lobbyGuard:
   enabled: false
   hungerDisabled: true
