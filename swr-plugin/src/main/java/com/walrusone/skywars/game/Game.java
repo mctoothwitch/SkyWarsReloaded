@@ -1241,7 +1241,7 @@ public class Game {
 		} else if (weather.equalsIgnoreCase("snow")) {
 			for (int x = min; x < max; x++) {
 				for (int z = min; z < max; z++) {
-					world.setBiome(x, z, Biome.ICE_PLAINS);
+					world.setBiome(x, z, Biome.ICE_FLATS);
 				}
 			}
 			world.setStorm(true);
