@@ -6,6 +6,7 @@ import java.util.List;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
+import org.bukkit.block.Block;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -34,7 +35,7 @@ public class ItemUtils {
         	} else {
                 itemStack = new ItemStack(Material.getMaterial(item.get(0).toUpperCase()), Integer.parseInt(item.get(1)));
         	}
-
+        	
         	if (item.size() > 2) {
             	for (int x = 2; x < item.size(); x++) {
             		if (item.get(x).split(":")[0].equalsIgnoreCase("name")) {
@@ -81,7 +82,7 @@ public class ItemUtils {
            	potionEffect = new PotionEffect(pType, length, level);
 
         } catch (Exception ignored) {
-
+            
         }
         return potionEffect;
     }
